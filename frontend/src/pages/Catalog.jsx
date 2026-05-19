@@ -147,7 +147,7 @@ function BranchForm({ initial, onSubmit, onCancel }) {
         <label className="font-mono-label text-[9px] text-neutral-500 block mb-2">NOMBRE DE SUCURSAL</label>
         <input data-testid="branch-name-input" required type="text" value={form.name}
           onChange={(e) => upd("name", e.target.value)}
-          placeholder="Ej: Manuel & Torres · Centro"
+          placeholder="Ej: Sucursa · Centro"
           className="w-full border border-black px-4 py-3 outline-none font-serif-display text-lg" />
       </div>
       <div>
