@@ -39,7 +39,7 @@ export default function BranchSelector() {
         <div>
           <div className="font-mono-label text-[10px] text-neutral-500">PASO 2 DE 2</div>
           <div className="font-serif-display text-2xl mt-1 leading-none">
-            Manuel <em className="italic">&amp;</em> Torres
+            Gestion <em className="italic">&amp;</em> Agenda
           </div>
         </div>
         <button
